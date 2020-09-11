@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Challenges yourself.md",
+            "file": "README.md",
             "mode": "source"
           }
         }
@@ -64,7 +64,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Challenges yourself.md"
+                "file": "README.md"
               }
             }
           }
@@ -76,10 +76,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "README.md",
+    "_Table of Content.md",
     "Challenges yourself.md",
     "Before the project.md",
-    "A Pragmatic Philosophy.md",
-    "A Pragmatic Paranoia.md",
-    "A Pragmatic Approach.md"
+    "A Pragmatic Philosophy.md"
   ]
 }

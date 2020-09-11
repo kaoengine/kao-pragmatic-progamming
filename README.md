@@ -1,1 +1,71 @@
 # kao-pragmatic-progamming
+
+# Table of Contents
+- [Table of Contents](#table-of-contents)
+- [[A Pragmatic Philosophy]]
+	- [1.-The Cat Ate My Source Code](#1-the-cat-ate-my-source-code)
+	- [2.-Software Entropy](#2-software-entropy)
+	- [3.-Stone Soup and Boiled Frogs](#3-stone-soup-and-boiled-frogs)
+	- [4.-Good enough soup](#4-good-enough-soup)
+	- [5.-Your Knowledge Portfolio](#5-your-knowledge-portfolio)
+	- [6.-Communicate](#6-communicate)
+- [[A Pragmatic Approach]]
+	- [7.-The Evils of Duplication](#7-the-evils-of-duplication)
+	- [8.-Orthogonality](#8-orthogonality)
+	- [9.-Reversibility](#9-reversibility)
+	- [10-Tracer Bullets](#10-tracer-bullets)
+	- [11.-Prototypes and Post-it Notes](#11-prototypes-and-post-it-notes)
+	- [12.-Domain Languages](#12-domain-languages)
+	- [13.-Estimating](#13-estimating)
+- [[The Basic Tools]]
+	- [14.-The Power of Plain Text](#14-the-power-of-plain-text)
+	- [15.-Shell Games](#15-shell-games)
+	- [16.-Power Editing](#16-power-editing)
+	- [17.-Source Code Control](#17-source-code-control)
+	- [18.-Debugging](#18-debugging)
+	- [19.-Text Manipulation](#19-text-manipulation)
+	- [20.-Code Generators](#20-code-generators)
+- [[A Pragmatic Paranoia]]
+	- [21.-Design by Contract](#21-design-by-contract)
+	- [22.-Dead Programs Tell No Lies](#22-dead-programs-tell-no-lies)
+	- [23.-Assertive Programming](#23-assertive-programming)
+	- [24.-When to Use Exceptions](#24-when-to-use-exceptions)
+	- [25.-How to Balance Resources](#25-how-to-balance-resources)
+- [[Bend or Break]]
+	- [26.-Decoupling and the Law of Demeter](#26-decoupling-and-the-law-of-demeter)
+	- [27.-Metaprogramming](#27-metaprogramming)
+	- [28.- Temporal Coupling](#28-temporal-coupling)
+	- [29.-It's Just a View](#29-its-just-a-view)
+	- [30.-Blackboards](#30-blackboards)
+- [[While you are coding]]
+	- [31.-Program by Coincidence](#31-program-by-coincidence)
+	- [32.-Algorithm Speed](#32-algorithm-speed)
+	- [33.-Refactoring](#33-refactoring)
+	- [34.-Code That's Easy to Test](#34-code-thats-easy-to-test)
+	- [35.-Evil Wizards](#35-evil-wizards)
+- [[Before the project]]
+	- [36.-The Requirements Pit](#36-the-requirements-pit)
+	- [37.-Solving Impossible Puzzles](#37-solving-impossible-puzzles)
+	- [38.-Not Until You're Ready](#38-not-until-youre-ready)
+	- [39.-The Specification Trap](#39-the-specification-trap)
+	- [40.-Circles and Arrows](#40-circles-and-arrows)
+- [[Pragmatic Projects]]
+	- [41.-Pragmatic Teams](#41-pragmatic-teams)
+	- [42.-Ubiquitous Automation](#42-ubiquitous-automation)
+	- [43.-Ruthless testing](#43-ruthless-testing)
+	- [44.-It's All Writing](#44-its-all-writing)
+	- [45.- Great Expectations](#45-great-expectations)
+- [Quick Reference](#quick-reference)
+	- [[Tips]]
+	- [[CheckList]]
+		- [Languages To Learn](#languages-to-learn)
+		- [The WISDOM Acrostic](#the-wisdom-acrostic)
+		- [How to Maintain Orthogonality](#how-to-maintain-orthogonality)
+		- [Things to prototype](#things-to-prototype)
+		- [Architectural Questions](#architectural-questions)
+		- [Debugging Checklist](#debugging-checklist)
+		- [Law of Demeter for Functions](#law-of-demeter-for-functions)
+		- [How to Program Deliberately](#how-to-program-deliberately)
+		- [When to Refactor](#when-to-refactor)
+		- [Cutting the Gordian Knot](#cutting-the-gordian-knot)
+		- [Aspects of Testing](#aspects-of-testing)
