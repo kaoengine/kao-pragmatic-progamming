@@ -1,0 +1,85 @@
+{
+  "main": {
+    "id": "0b27fb80ef799b6d",
+    "type": "split",
+    "children": [
+      {
+        "id": "6857a4ec5b0250b3",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Challenges yourself.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0356950f4edbd7c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "c6072b92c71425ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be04cf6c614a49b3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "7ed38ab8b5a95d88",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c935220d407ad0be",
+    "type": "split",
+    "children": [
+      {
+        "id": "4a3dd98ed8a01aa2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f64e1f0dd2ae4efe",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Challenges yourself.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Challenges yourself.md",
+    "Before the project.md",
+    "A Pragmatic Philosophy.md",
+    "A Pragmatic Paranoia.md",
+    "A Pragmatic Approach.md"
+  ]
+}
