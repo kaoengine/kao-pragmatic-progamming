@@ -10,8 +10,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
-            "mode": "source"
+            "file": "A Pragmatic Philosophy.md",
+            "mode": "preview"
           }
         }
       }
@@ -40,11 +40,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": ""
+                "query": "soup"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -64,7 +65,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md"
+                "file": "A Pragmatic Philosophy.md"
               }
             }
           }
@@ -76,10 +77,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "README.md",
+    "A Pragmatic Philosophy.md",
     "_Table of Content.md",
-    "Challenges yourself.md",
-    "Before the project.md",
-    "A Pragmatic Philosophy.md"
+    "Pasted image.png",
+    "README.md",
+    "A Pragmatic Approach.md"
   ]
 }
