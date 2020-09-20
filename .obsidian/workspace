@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "Bend or Break.md",
             "mode": "source"
           }
         }
@@ -64,7 +64,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md"
+                "file": "Bend or Break.md"
               }
             }
           }
@@ -76,10 +76,11 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "README.md",
-    "_Table of Content.md",
-    "Challenges yourself.md",
-    "Before the project.md",
-    "A Pragmatic Philosophy.md"
+    "Bend or Break.md",
+    "Pragmatic Programmer.md",
+    "Software Entropy.md",
+    "The Basic Tools.md",
+    "The Cat Ate My Source Code.md",
+    "The stone soup story.md"
   ]
 }

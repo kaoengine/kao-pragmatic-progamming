@@ -1,6 +1,7 @@
 # Chapter 5. Bend or Break
 ## 26.-Decoupling and the Law of Demeter
 ### Minimize Coupling
+
 Be careful about how many other modules you interact with and how you came to interact with them.
 
 Traversing relationships between objects directly can quickly lead to a combinatorial explosion.
@@ -19,8 +20,23 @@ Symptoms:
 1. Large projects where the command to link a unit test is longer than the test program itself
 2. "Simple" changes to one module that propagate through unrelated modules in the system
 3. Developers who are afraid to change code because they aren't sure what might be affected
+4. Meetings where everyon há to attend because no one í sure who will be afedted by a change.
+5. Wacky dependencies beteen unrelated modules or libaries.
 
-### The Law of Demeter for Functions
+#### Train Wrecks
+![[Pasted image 1.png]]
+```java
+public void appyDiscount(customer, order_id, discount){
+	total = customer.orders.find(order_id).getTotals();
+	totals.grandTotal = totals.grandTotal - discount;
+	totals.discount = discount;
+}
+```
+> This code travel 5 levels of abtractions 
+
+> Tip 45: Tell, Don't Ask 
+> You shouldn't make decistions based on the internal state of an object and then update that object. Doing so totally destroy the benefits of encapsulations and, in doing so, spreads the knowledge of the implementations throughout the code. So the first fix for our tain wreack is to delegate the discounting to the total object.
+### The Law of Demeter for Functions (LOD)
 
 The Law of Demeter for functions states that  any method of an object should call only methods  belonging to:
 
@@ -37,6 +53,25 @@ class Demeter {
 }
 ```
 
+> Tip 46: Don't chain method Calls  
+```js
+// This is pretty poor style 
+amount = customer.orders.last().totals().amount;
+
+// You should 
+orders = customer.orders;
+last = orders.last();
+totals = last.totals();
+amount = totals.amount;
+```
+##### Exeptions 
+There’s a big exception to the one-dot rule: the rule doesn’t apply if the things you’re chaining are really, really unlikely to change. In practice, anything in your application should be considered likely to change. Anything in a third-party library should be considered volatile, particularly if the maintainers of that library are known to change APIs between releases. Libraries that come with the language, however, are probably pretty stable, and so we’d be happy with code such as:
+```ruby
+people
+ .sort_by {|person| person.age }
+ .first(10)
+ .map {| person | person.name }
+```
 **Tip 36: Minimize Coupling Between Modules**
 
 ### Does It Really Make a Difference?
