@@ -22,6 +22,7 @@ Don't mess up the carpet when fixing the broken window.
 
 ## 3.-Stone Soup and Boiled Frogs
 [[The stone soup story]]
+![[Pasted image 1.png]]
 It's time to bring out the stones. Work out what you can reasonably ask for. Develop it well. Once you've got it, show people, and let them marvel. Then say "of course, it would be better if we added…."
 
 _People find it easier to join an ongoing success._
