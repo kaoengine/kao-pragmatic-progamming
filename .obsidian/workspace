@@ -10,8 +10,13 @@
         "state": {
           "type": "markdown",
           "state": {
+<<<<<<< HEAD
             "file": "Bend or Break.md",
             "mode": "source"
+=======
+            "file": "A Pragmatic Philosophy.md",
+            "mode": "preview"
+>>>>>>> 639c46ae27d1708dab2bc2c1e4c0a18b159252b5
           }
         }
       }
@@ -40,11 +45,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": ""
+                "query": "soup"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -64,7 +70,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "Bend or Break.md"
+=======
+                "file": "A Pragmatic Philosophy.md"
+>>>>>>> 639c46ae27d1708dab2bc2c1e4c0a18b159252b5
               }
             }
           }
@@ -76,11 +86,19 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+<<<<<<< HEAD
     "Bend or Break.md",
     "Pragmatic Programmer.md",
     "Software Entropy.md",
     "The Basic Tools.md",
     "The Cat Ate My Source Code.md",
     "The stone soup story.md"
+=======
+    "A Pragmatic Philosophy.md",
+    "_Table of Content.md",
+    "Pasted image.png",
+    "README.md",
+    "A Pragmatic Approach.md"
+>>>>>>> 639c46ae27d1708dab2bc2c1e4c0a18b159252b5
   ]
 }
