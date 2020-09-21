@@ -79,6 +79,39 @@ Using The Law of Demeter will make your code more adaptable and robust, but at a
 you will be writing a large number of wrapper methods that simply forward the request on to a delegate. imposing both a runtime cost and a space overhead.
 Balance the pros and cons for your particular application.
 
+
+### Global Data Includes Singletons
+> Típ 48: If It’s Important Enough to Be Global, Wrap It in an API
+
+Any mutable external resource is global data. If your application uses a database, datastore, file system, service API, and so on, it risks falling into the globalization trap. Again, the solution is to make sure you always wrap these resources behind code that you control.
+
+### Keep you code be Shy
+![[Pasted image 2.png]]
+- Don't reveal yourself to other
+- Don't interract with too many people 
+
+### Events
+An event represents the availability of information. It might come from the outside world: a user clicking a button, or a stock quote update. It might be internal: the result of a calculation is ready, a search finishes. It can even be something as trivial as fetching the next element in a list.
+ Whatever the source, if we write applications that respond to events, and adjust what they do based on those events, those applications will work better in the real world. Their users will find them to be more interactive, and the applications themselves will make better use of resources.
+ 
+ #### 1  Finite State Machines
+ ![[Pasted image 3.png]]
+ #### 2  The Observer Pattern
+ In the observer pattern we have a source of events, called the observable and a list of clients, the observers , who are interested in those events.
+ An observer registers its interest with the observable, typically by passing a reference to a function to be called. Subsequently, when the event occurs, the observable iterates down its list of observers and calls the function that each passed it. The event is given as a parameter to that call.
+
+ ![[Pasted image 4.png]]
+ ![[Pasted image 5.png]]
+ There’s not much code involved in creating an observable: you push a function reference onto a list, and then call those functions when the event occurs. This is a good example of when not to use a library.
+ The observer/observable pattern has been used for decades, and it has served us well. It is particularly prevalent in user interface systems, where the callbacks are used to inform the application that some interaction has occurred.
+ But the observer pattern has a problem: because each of the observers has to register with the observable, it introduces coupling. In addition, because in the typical implementation the callbacks are handled inline by the observable, synchronously, it can introduce performance bottlenecks.
+
+ #### 3  Publish/Subscribe
+ 
+ #### 4  Reactive Programming and Streams
+
+
+
 ## 27.-Metaprogramming
 "Out with the details!" Get them out of the code. While we're at it, we can make our code highly configurable and "soft"—that is, easily adaptable to changes.
 

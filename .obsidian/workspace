@@ -1,22 +1,17 @@
 {
   "main": {
-    "id": "0b27fb80ef799b6d",
+    "id": "c6855f8b1e9a56be",
     "type": "split",
     "children": [
       {
-        "id": "6857a4ec5b0250b3",
+        "id": "f876dd3fbe45b05d",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-<<<<<<< HEAD
             "file": "Bend or Break.md",
             "mode": "source"
-=======
-            "file": "A Pragmatic Philosophy.md",
-            "mode": "preview"
->>>>>>> 639c46ae27d1708dab2bc2c1e4c0a18b159252b5
           }
         }
       }
@@ -24,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "0356950f4edbd7c4",
+    "id": "2dc6cf86724c6539",
     "type": "split",
     "children": [
       {
-        "id": "c6072b92c71425ea",
+        "id": "5a75bb4c184b8366",
         "type": "tabs",
         "children": [
           {
-            "id": "be04cf6c614a49b3",
+            "id": "9e4028cbee5c5436",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -40,41 +35,36 @@
             }
           },
           {
-            "id": "7ed38ab8b5a95d88",
+            "id": "49665c465a7c735e",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "soup"
+                "query": ""
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
   "right": {
-    "id": "c935220d407ad0be",
+    "id": "d4fb9db8d70f8c09",
     "type": "split",
     "children": [
       {
-        "id": "4a3dd98ed8a01aa2",
+        "id": "557c0b535ed1bc5b",
         "type": "tabs",
         "children": [
           {
-            "id": "f64e1f0dd2ae4efe",
+            "id": "018c02dddd51b0bc",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
                 "file": "Bend or Break.md"
-=======
-                "file": "A Pragmatic Philosophy.md"
->>>>>>> 639c46ae27d1708dab2bc2c1e4c0a18b159252b5
               }
             }
           }
@@ -86,19 +76,7 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-<<<<<<< HEAD
     "Bend or Break.md",
-    "Pragmatic Programmer.md",
-    "Software Entropy.md",
-    "The Basic Tools.md",
-    "The Cat Ate My Source Code.md",
-    "The stone soup story.md"
-=======
-    "A Pragmatic Philosophy.md",
-    "_Table of Content.md",
-    "Pasted image.png",
-    "README.md",
-    "A Pragmatic Approach.md"
->>>>>>> 639c46ae27d1708dab2bc2c1e4c0a18b159252b5
+    "A Pragmatic Paranoia.md"
   ]
 }
