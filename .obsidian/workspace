@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "f876dd3fbe45b05d",
+        "id": "b35f44d106559109",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Bend or Break.md",
+            "file": "Concurrency.md",
             "mode": "source"
           }
         }
@@ -48,8 +48,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d4fb9db8d70f8c09",
@@ -65,7 +64,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bend or Break.md"
+                "file": "Concurrency.md"
               }
             }
           }
@@ -77,7 +76,11 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Concurrency.md",
     "Bend or Break.md",
-    "A Pragmatic Paranoia.md"
+    "A Pragmatic Paranoia.md",
+    "Individual Pragmatists, Large Teams.md",
+    "CheckList.md",
+    "Untitled.md"
   ]
 }
