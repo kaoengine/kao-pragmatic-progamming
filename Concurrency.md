@@ -31,6 +31,7 @@ Which is why we’re recommending the punchline to the old joke:
 Doctor, it hurts when I do this. Then don’t do that.
 The next couple of sections suggest alternative ways of getting the benefits of concurrency without the pain.
 
+### Actor and Processes 
 
 ## 28.- Temporal Coupling
 Two aspects of time:
@@ -111,6 +112,10 @@ The controller is more of a coordination mechanism, and doesn't have to be relat
 
 ## 30.-Blackboards
 A blackboard system lets us decouple our objects from each other completely, providing a forum where knowledge consumers and producers can exchange data anonymously and asynchronously.
+
+### Some key features of the blackboard approach are
+- None of us need ot know of the exsitence of any other mind. We watch the board for new information and add thier findings.
+- We be trainned in different disciplines, may have different levels of eduaction and expertise, and may not evn work in the same precint. We sahre desire to solve the prolem, but that's all.
 ### Blackboard Implementations
 With Blackboard systems, you can store active objects—not just data—on the blackboard, and retrieve them by partial matching of fields (via templates and wildcards) or by subtypes.
 
