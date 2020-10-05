@@ -87,6 +87,7 @@ You can be flexible as to how the application is deployed: standalone, client-se
 If we design to allow for concurrency, we can more easily meet scalability or performance requirements when the time comes—and if the time never comes, we still have the benefit of a cleaner design.
 
 ## 29.-It's Just a View
+![[Pasted image 20201005094605.png]]
 ### Publish/Subscribe
 Objects should be able to register to receive only the events they need, and should never be sent events they don't need.
 
@@ -116,6 +117,20 @@ A blackboard system lets us decouple our objects from each other completely, pro
 ### Some key features of the blackboard approach are
 - None of us need ot know of the exsitence of any other mind. We watch the board for new information and add thier findings.
 - We be trainned in different disciplines, may have different levels of eduaction and expertise, and may not evn work in the same precint. We sahre desire to solve the prolem, but that's all.
+- Different mind may come and go during the course of the process, and may work different shifts.
+ - There are no restrictions on what may be placed on the blackboard. It may be pictures, sentences, physical evidence, and so on.
+ ![[Pasted image 20201005094255.png]]
+ 
+ ### Messaging Systems Can Be Like Blackboards
+ As we’re writing this second edition, many applications are constructed using small, decoupled services, all communicating via some form of messaging system. These messaging systems (such as Kafka and NATS) do far more than simply send data from A to B. In particular, they offer persistence (in the form of an event log) and the ability to retrieve messages through a form of pattern matching. This means you can use them both as a blackboard system and/or as a platform on which you can run a bunch of actors.
+ 
+ ### But It’s Not That Simple…
+ The actor and/or blackboard and/or microservice approach to architecture removes a whole class of potential concurrency problems from your applications. But that benefit comes at a cost. These approaches are harder to reason about, because a lot of the action is indirect. You’ll find it helps to keep a central repository of message formats and/or APIs, particularly if the repository can generate the code and documentation for you. You’ll also need good tooling to be able to trace messages and facts as they progress through the system. (A useful technique is to add a unique trace id when a particular business function is initiated and then propagate it to all the actors involved. You’ll then be able to reconstruct what happens from the log files.)
+ Finally, these kinds of system can be more troublesome to deploy and manage, as there are more moving parts. To some extent this is offset by the fact that the system is more granular, and can be updated by replacing individual actors, and not the whole system.
+
+
+ ### Laisser fair concurrency. 
+
 ### Blackboard Implementations
 With Blackboard systems, you can store active objects—not just data—on the blackboard, and retrieve them by partial matching of fields (via templates and wildcards) or by subtypes.
 
